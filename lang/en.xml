@@ -1,0 +1,4 @@
+﻿<?xml version="1.0"?>
+<language code="en" name="English"/>
+<!-- English is the default language, there is no need (in general) to add any entries here. -->
+<!-- Doing so will overwrite the respective default language entry. -->

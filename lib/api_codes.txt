@@ -1,0 +1,22 @@
+200: the process has been successfully handled
+201: the requested resource has been created - usually the response contains
+     a URI or similar, describing the newly generated resource
+400: something basic is wrong with the request
+     (we use this for erroneous structure only - see 422)
+401: the client has to authenticate before accessing this resource (also see 403)
+403: the request has been forbidden for some reason (access not granted, forbidden by some rules, ...)
+     -> We use 401 only if the client has not authenticated at all; in case he is, but requests
+        a resource he has no access to, we use 403.
+     -> Another example of returning 403 is when a client tries to update a resource
+        in a disallowed way, e.g. if a database constraint is not met.
+404: the resource does not exist - this includes (variable) data and (constant) definitions
+406: (not acceptable) the client requets contained an "Accept" header which does not match any
+     available content types at the given location
+422: the request cannot be processed due to bad data passed to the arguments
+     -> This code is used whenever data described by a valid structure is not as expected - in contrast
+        to 400 where the structure itself is invalid, e.g. because of missing parameters.
+     -> The guideline is to never generate a 400 code if the user sent in a non-manipulated form
+        and to signal wrong user input by a 422 code - so if an e-mail field contains an invalid e-mail address,
+        a 422 is produced, whereas we reply by 400 if there is no e-mail field at all.
+500: a general script error occured (e.g. if a PHP exception has been thrown)
+501: signals non-implemented functionality

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<!--
+This file is a template for the language file of the client part of the Fish Advisor.
+
+Translators may just write the translated version of the English text as content of the XML tag, e.g.
+    <entry key="Twig">Zweig</entry>
+for the German translation.
+It is CRUCIAL to maintain punctuation and spaces at the end of the strings!
+
+Remember to also translate the client-side dictionary file "_template.js",
+which can be found in this same directory.
+
+The root tag at the beginning of the file, that is,
+    <language code="" name="">
+identifies the language of this file.
+The specified code should be a valid ISO 639-1 language code, e.g. "en" for English.
+The specified name should be the name of the language in its own language. This would be
+"Français" for French and "Deutsch" for German.
+-->
+<language code="" name="">
+	<!-- General -->
+	<entry key="Service provided by: "></entry>
+	<entry key="SigGen"></entry>
+	<entry key="Copyright © 2014 by Steve Muller. All rights reserved."></entry>
+	<entry key="All rights related to fish and playground icons belong to Disney."></entry>
+	<entry key="There is no translation of this document in your language. The English version is displayed instead."></entry>
+	<!-- Toontown related -->
+	<entry key="Twig"></entry>
+	<entry key="Bamboo"></entry>
+	<entry key="Hardwood"></entry>
+	<entry key="Steel"></entry>
+	<entry key="Gold"></entry>
+	<entry key="Estate"></entry>
+	<!-- Every playground, street and fish species can be additionally translated here -->
+	<!-- Page titles -->
+	<entry key="Fish Advisor"></entry>
+	<entry key="Welcome"></entry>
+	<entry key="List of fish species"></entry>
+	<entry key="List of fishing ponds"></entry>
+	<entry key="Species advisor"></entry>
+	<entry key="Advise me: where?"></entry>
+	<entry key="Pond advisor"></entry>
+	<entry key="Advise me: what?"></entry>
+	<entry key="Toons"></entry>
+	<entry key="Export toons"></entry>
+	<entry key="Import toons"></entry>
+	<entry key="My toons"></entry>
+	<entry key="Insight"></entry>
+	<!-- Page: language -->
+	<entry key="Translations"></entry>
+	<entry key="The Fish Advisor is available in these languages:"></entry>
+	<entry key="Do you want to localize this site into another language?"></entry>
+	<entry key="Just head over to the $ directory, grab a copy of any pair of language files (.xml and .js) and translate them. When you're done, send them to $ and I'll add them as soon as I can."></entry>
+	<entry key="The first file is in the $ format. Language entries are of the form:"></entry>
+	<entry key="The second file is in the $ format. Language entries are of the form:"></entry>
+	<entry key="Original (English) text"></entry>
+	<entry key="Translated text"></entry>
+	<!-- Page: toons -->
+	<entry key="Pick a toon"></entry>
+	<entry key="Clicking on a toon's panel makes the Fish Advisor adapt the various statistics on this site for this specific toon."></entry>
+	<entry key="You can edit the selected toon below."></entry>
+	<entry key="Export my toons to another device"></entry>
+	<!-- Page: toons_export -->
+	<entry key="Check all the toons you want to export."></entry>
+	<entry key="Copy the export link below and open it on your other device."></entry>
+	<entry key="Or scan the QR code with your mobile device."></entry>
+	<!-- Pages: fish_advisor | pond_advisor -->
+	<entry key="What species should I catch before buying the next rod?"></entry>
+	<entry key="Where should I fish if catching a new species shall be as likely as possible?"></entry>
+	<entry key="Giving advice to:"></entry>
+	<entry key="Congratulations on catching all fish species!"></entry>
+	<entry key="needs 1 bucket"></entry>
+	<entry key="needs %d buckets"></entry>
+	<!-- Page: fishes -->
+	<entry key="Choose your toon"></entry>
+	<entry key="Fish species"></entry>
+	<!-- Page: fishes_single -->
+	<entry key="This is a $ species, which can weigh up to $ lb. You'll need at least the $ rod."></entry>
+	<entry key="common"></entry>
+	<entry key="rare"></entry>
+	<entry key="very rare"></entry>
+	<entry key="This species cannot be caught with this rod."></entry>
+	<entry key="most common (%s) with "></entry>
+	<entry key=" rod"></entry>
+	<!-- Page: ponds -->
+	<entry key="Fishing ponds"></entry>
+	<!-- Page: ponds_single -->
+	<entry key="at your "></entry>
+	<entry key="estate"></entry>
+	<entry key="in "></entry>
+	<entry key="on the "></entry>
+	<entry key="playground"></entry>
+	<entry key="heading to "></entry>
+	<entry key="Only showing uncaught species of:"></entry>
+	<entry key="No further species can be caught at this pond."></entry>
+	<entry key="most common (%s) in "></entry>
+</language>

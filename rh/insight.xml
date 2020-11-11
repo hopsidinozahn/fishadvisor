@@ -1,0 +1,457 @@
+﻿<?xml version="1.0"?>
+<body xmlns:en="lang:en" xmlns:de="lang:de">
+	
+	<en:h1>The Fish Advisor: an insight.</en:h1>
+	<de:h1>Der Angel-Ratgeber: ein Einblick.</de:h1>
+
+	<en:p class="important"><abbr title="Too long, didn't read">TL;DR</abbr>? The orange boxes contain the most important information.</en:p>
+	<de:p class="important">Keine Lust zum Lesen? Die orangefarbenen Kästchen enthalten die wichtigsten Informationen.</de:p>
+
+	<en:h2>What determines which fish is caught?</en:h2>
+	<de:h2>Wie wird bestimmt, welche Art gefangen wird?</de:h2>
+
+	<en:h3>Rarity value</en:h3>
+	<de:h3>Seltenheitswert</de:h3>
+
+	<en:p class="important">Each fish species in Toontown has a certain <em>rarity</em> value, which is just a number from 1 (very common) to 10 (very rare).</en:p>
+	<de:p class="important">Jede Fischart in Toontown besitzt einen bestimmten <em>Seltenheitswert</em>, der aus einer Zahl von 1 (sehr häufig) bis 10 (sehr selten) besteht.</de:p>
+
+	<en:p>That number roughly determines the overall probability to catch it.</en:p>
+	<de:p>Diese Zahl bestimmt grob die globale Wahrscheinlichkeit, die betroffene Fischart zu fangen.</de:p>
+
+	<table class="table-data">
+		<colgroup>
+			<col />
+			<col style="width:730px" />
+		</colgroup>
+		<thead>
+			<tr>
+				<en:th>Rarity value</en:th>
+				<de:th>Seltenheitswert</de:th>
+				<en:th>List of fish species with this rarity</en:th>
+				<de:th>Liste aller Fischarten mit dieser Seltenheit</de:th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="rarity rarity1">1</td>
+				<td>
+					<span class="inlineblockfish fishgroup_0">Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_4">Clown Fish</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_2">Cat Fish</span>
+					<span class="inlineblockfish fishgroup_6">Frozen Fish</span>
+					<span class="inlineblockfish fishgroup_8">Star Fish</span>
+					<span class="inlineblockfish fishgroup_12">Dog Fish</span>
+					<span class="inlineblockfish fishgroup_14">Amore Eel</span>
+					<span class="inlineblockfish fishgroup_20">Moon Fish</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity2">2</td>
+				<td>
+					<span class="inlineblockfish fishgroup_22">Sea Horse</span>
+					<span class="inlineblockfish fishgroup_28">Cutthroat Trout</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_0">Red Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_32">Peanut Butter &amp; Jellyfish</span>
+					<span class="inlineblockfish fishgroup_2">Tom Cat Fish</span>
+					<span class="inlineblockfish fishgroup_4">Party Clown Fish</span>
+					<span class="inlineblockfish fishgroup_8">Five Star Fish</span>
+					<span class="inlineblockfish fishgroup_12">Puppy Dog Fish</span>
+					<span class="inlineblockfish fishgroup_26">Brown Bear Acuda</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity3">3</td>
+				<td>
+					<span class="inlineblockfish fishgroup_18">King Crab</span>
+					<span class="inlineblockfish fishgroup_24">Pool Shark</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_0">Water Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_32">Grape PB&amp;J Fish</span>
+					<span class="inlineblockfish fishgroup_2">Tabby Cat Fish</span>
+					<span class="inlineblockfish fishgroup_14">Electric Amore Eel</span>
+					<span class="inlineblockfish fishgroup_20">New Moon Fish</span>
+					<span class="inlineblockfish fishgroup_22">Rocking Sea Horse</span>
+					<span class="inlineblockfish fishgroup_26">Black Bear Acuda</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity4">4</td>
+				<td>
+					<span class="inlineblockfish fishgroup_32">Crunchy PB&amp;J Fish</span>
+					<span class="inlineblockfish fishgroup_12">Dalmatian Dog Fish</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_0">Hot Air Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_2">Alley Cat Fish</span>
+					<span class="inlineblockfish fishgroup_4">Sad Clown Fish</span>
+					<span class="inlineblockfish fishgroup_20">Harvest Moon Fish</span>
+					<span class="inlineblockfish fishgroup_26">Koala Bear Acuda</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity5">5</td>
+				<td>
+					<span class="inlineblockfish fishgroup_16">Nurse Shark</span>
+					<span class="inlineblockfish fishgroup_30">Piano Tuna</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_0">Weather Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_32">Strawberry PB&amp;J Fish</span>
+					<span class="inlineblockfish fishgroup_8">Rock Star Fish</span>
+					<span class="inlineblockfish fishgroup_12">Hot Dog Fish</span>
+					<span class="inlineblockfish fishgroup_22">Clydesdale Sea Horse</span>
+					<span class="inlineblockfish fishgroup_24">Kiddie Pool Shark</span>
+					<span class="inlineblockfish fishgroup_26">Honey Bear Acuda</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity6">6</td>
+				<td>
+					<span class="inlineblockfish fishgroup_4">Circus Clown Fish</span>
+					<span class="inlineblockfish fishgroup_12">Bull Dog Fish</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_20">Crescent Moon Fish</span>
+					<span class="inlineblockfish fishgroup_24">Swimming Pool Shark</span>
+					<span class="inlineblockfish fishgroup_26">Polar Bear Acuda</span>
+					<span class="inlineblockfish fishgroup_28">Captain Cutthroat Trout</span>
+					<span class="inlineblockfish fishgroup_30">Upright Piano Tuna</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity7">7</td>
+				<td>
+					<span class="inlineblockfish fishgroup_22">Arabian Sea Horse</span>
+					<span class="inlineblockfish fishgroup_30">Player Piano Tuna</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_8">Shining Star Fish</span>
+					<span class="inlineblockfish fishgroup_16">Clara Nurse Shark</span>
+					<span class="inlineblockfish fishgroup_18">Alaskan King Crab</span>
+					<span class="inlineblockfish fishgroup_24">Olympic Pool Shark</span>
+					<span class="inlineblockfish fishgroup_26">Panda Bear Acuda</span>
+					<span class="inlineblockfish fishgroup_28">Scurvy Cutthroat Trout</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity8">8</td>
+				<td>
+					<span class="inlineblockfish fishgroup_18">Old King Crab</span>
+					<span class="inlineblockfish fishgroup_20">Half Moon Fish</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_16">Florence Nurse Shark</span>
+					<span class="inlineblockfish fishgroup_26">Kodiac Bear Acuda</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity9">9</td>
+				<td>
+					<span class="inlineblockfish fishgroup_10">Holey Mackerel</span>
+					<span class="inlineblockfish fishgroup_30">Baby Grand Piano Tuna</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_2">Siamese Cat Fish</span>
+					<!-- -->
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity10">10</td>
+				<td>
+					<span class="inlineblockfish fishgroup_34">Devil Ray</span>
+					<span class="inlineblockfish fishgroup_20">Full Moon Fish</span>
+					<!-- -->
+					<span class="inlineblockfish fishgroup_32">Concord Grape PB&amp;J Fish</span>
+					<span class="inlineblockfish fishgroup_8">All Star Fish</span>
+					<span class="inlineblockfish fishgroup_26">Grizzly Bear Acuda</span>
+					<span class="inlineblockfish fishgroup_30">Grand Piano Tuna</span>
+					<!-- -->
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<en:h3>Locations</en:h3>
+	<de:h3>Orte</de:h3>
+
+	<en:p>Note that some fish species can only be caught at certain ponds. Internally, this is accomplished as follows.</en:p>
+	<de:p>Beachte, dass einige Fischarten nur an bestimmten Orten gefunden werden können. Intern ist das wie folgt geregelt.</de:p>
+
+	<div class="important">
+		<en:p>A list of locations is associated to every individual species. It consists of a main location and possibly further places:</en:p>
+		<de:p>Zu jeder einzelnen Fischart ist eine Liste an Orten zugeordnet. Sie besteht aus einem Haupt- und möglicherweise weiteren Nebenorten:</de:p>
+		<ul>
+			<en:li>At the main location, the fish can be caught with the rarity specified in the table above.</en:li>
+			<de:li>Am Hauptort kann der Fisch mit der Seltenheit gefangen werden, die oben in der Tabelle angegeben ist.</de:li>
+			<en:li>For each further location, the rarity value is increased each time by 1.</en:li>
+			<de:li>Für jeden weiteren Ort wird der Seltenheitswert jeweils um 1 erhöht.</de:li>
+		</ul>
+	</div>
+
+	<en:p>Have a look at the following example. A playground always includes all its streets.</en:p>
+	<de:p>Betrachte folgendes Beispiel. Ein Spielplatz schließt immer alle seine Straßen ein.</de:p>
+	<table class="table-data">
+		<thead>
+			<tr>
+				<en:th>Fish species</en:th>
+				<de:th>Fischart</de:th>
+				<en:th>Rarity value</en:th>
+				<de:th>Seltenheitswert</de:th>
+				<en:th>Main location</en:th>
+				<de:th>Hauptort</de:th>
+				<en:th>Second location</en:th>
+				<de:th>Nebenort</de:th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="inlinefish fishgroup_24">Pool Shark</span></td>
+				<td class="rarity rarity2">2</td>
+				<en:td>Daisy Gardens (rarity 2)</en:td>
+				<de:td>Daisy Gardens (Seltenheit 2)</de:td>
+				<en:td>Donald's Dock (rarity 3)</en:td>
+				<de:td>Donald's Dock (Seltenheit 3)</de:td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<en:p>Note that individual ponds can occur multiple times in the list. In this case, the fish in question can be caught with each of these rarities (see below how this works). The following examples illustrate this.</en:p>
+	<de:p>Beachte, dass einzelne Teiche mehrmals in der Liste auftreten können. In dem kann der betroffene Fisch mit jeder dieser Seltenheiten gefangen werden (siehe unten für eine Erläuterung, wie das passiert). Das folgende Beispiel stellt das schön dar.</de:p>
+
+	<table class="table-data">
+		<thead>
+			<tr>
+				<en:th>Fish species</en:th>
+				<de:th>Fischart</de:th>
+				<en:th>Rarity value</en:th>
+				<de:th>Seltenheitswert</de:th>
+				<en:th>Main location</en:th>
+				<de:th>Hauptort</de:th>
+				<en:th>Second location</en:th>
+				<de:th>1. Nebenort</de:th>
+				<en:th>Third location</en:th>
+				<de:th>2. Nebenort</de:th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="inlinefish fishgroup_22">Sea Horse</span></td>
+				<td class="rarity rarity2">2</td>
+				<en:td>Estate (rarity 2)</en:td>
+				<de:td>Grundstück (Seltenheit 2)</de:td>
+				<en:td>Daisy Gardens (rarity 3)</en:td>
+				<de:td>Daisy Gardens (Seltenheit 3)</de:td>
+				<en:td>Anywhere (rarity 4)</en:td>
+				<de:td>Überall (Seltenheit 4)</de:td>
+			</tr>
+			<tr>
+				<td><span class="inlinefish fishgroup_16">Florence Nurse Shark</span></td>
+				<td class="rarity rarity8">8</td>
+				<en:td>Tenor Terrace (rarity 8)</en:td>
+				<de:td>Minnie's Melodyland (Seltenheit 9)</de:td>
+				<en:td>Tenor Terrace (rarity 8)</en:td>
+				<de:td>Minnie's Melodyland (Seltenheit 9)</de:td>
+				<td>-</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<en:p>Here, ``anywhere'' includes the Estate and all ponds in Daisy Gardens. Similarly, Minnie's Melodyland includes Tenor Terrace.</en:p>
+	<de:p>``Überall'' schließt hier sowohl das Grundstück wie alle Teiche in Daisy Gardens eins. Ebenfalls schließt Minnie's Melodyland auch Tenor Terrace ein.</de:p>
+
+	<en:h3>The catching itself</en:h3>
+	<de:h3>Das Fangen selbst</de:h3>
+
+	<en:p>When you cast your rod, two independent dice are rolled.</en:p>
+	<de:p>Wenn du die Angel auswirfst, werden zwei unabhängige Würfel geworfen.</de:p>
+	<div class="important">
+		<ol>
+			<en:li>At first, a rarity value is determined randomly. Higher rarity values are much less likely to turn up.</en:li>
+			<de:li>Zuerst wird ein Seltenheitswert zufällig gewählt. Höhere Werte treten dabei viel seltener auf.</de:li>
+			<en:li>Once a rarity is chosen, the routine looks at all fishes you can catch at your <em>current location</em> and which have the <em>determined rarity value</em>. It then picks one of them at random, each equally likely.</en:li>
+			<de:li>Ist ein Seltenheitswert gewählt, betrachet die Routine alle Fischarten, die du mit deiner Angel an deinem <em>aktuellen Aufenthaltsort</em> angeln kannst, und welche den <em>soeben bestimmten Seltenheitswert</em> besitzen. Sie wählt dann einen von ihnen zufällig aus, jeden mit gleicher Wahrscheinlichkeit.</de:li>
+		</ol>
+	</div>
+
+	<en:p>Note that later rods have a slightly increased chance to catch rarer fishes. The following chart illustrates the likelihood that the several rarity values appear.</en:p>
+	<de:p>Beachte, dass spätere Angeln eine leicht höhere Wahrscheinlich haben, seltene Fische zu fangen. Die folgende Grafik zeigt die Wahrscheinlichkeit für die unterschiedlichen Seltenheitswerte.</de:p>
+
+	<p style="text-align:center"><img alt="" src="/style/prob_rarity.png" /></p>
+	
+	<en:p>It may be the case that a fish has multiple rarity values for the same pond (see previous section). In this case it is a candidate for either of these rarities.</en:p>
+	<de:p>Es kann der Fall sein, dass ein Fisch mehrere Seltenheitswerte besitzt (siehe vorheriger Abschnitt). In dem Fall ist es ein Kandidat für jeden dieser Seltenheitswerte.</de:p>
+
+	<en:p>Have a look at the following example. This is a list of all fishes that can be caught with the gold rod at the pond in Elm Street.</en:p>
+	<de:p>Betrachte das folgende Beispiel. Dies ist eine Liste aller Fische, die mit der Gold-Angel am Teich in Elm Street gefangen werden können.</de:p>
+	<table class="table-data">
+		<colgroup>
+			<col/>
+			<col style="width:140px"/>
+			<col/>
+		</colgroup>
+		<thead>
+			<tr>
+				<en:th>Pond~you're~fishing~at</en:th>
+				<de:th>Teich~an~dem~du~angelst</de:th>
+				<en:th>Rarity~value</en:th>
+				<de:th>Seltenheitswert</de:th>
+				<en:th>Possible~fishes</en:th>
+				<de:th>Mögliche~Fische</de:th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="10">Elm Street</td>
+				<td class="rarity rarity1">1</td>
+				<td>
+					<span class="inlineblockfish fishgroup_0">Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_2">Cat Fish</span>
+					<span class="inlineblockfish fishgroup_8">Star Fish</span>
+					<span class="inlineblockfish fishgroup_14">Amore Eel</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity2">2</td>
+				<td>
+					<span class="inlineblockfish fishgroup_2">Cat Fish</span>
+					<span class="inlineblockfish fishgroup_4">Clown Fish</span>
+					<span class="inlineblockfish fishgroup_12">Dog Fish</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity3">3</td>
+				<td>
+					<span class="inlineblockfish fishgroup_2">Tabby Cat Fish</span>
+					<span class="inlineblockfish fishgroup_4">Party Clown Fish</span>
+					<span class="inlineblockfish fishgroup_8">Five Star Fish</span>
+					<span class="inlineblockfish fishgroup_12">Puppy Dog Fish</span>
+					<span class="inlineblockfish fishgroup_14">Amore Eel</span>
+					<span class="inlineblockfish fishgroup_14">Electric Amore Eel</span>
+					<span class="inlineblockfish fishgroup_22">Sea Horse</span>
+					<span class="inlineblockfish fishgroup_24">Pool Shark</span>
+					<span class="inlineblockfish fishgroup_28">Cutthroat Trout</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity4">4</td>
+				<td>
+					<span class="inlineblockfish fishgroup_0">Water Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_32">Peanut Butter &amp; Jellyfish</span>
+					<span class="inlineblockfish fishgroup_32">Crunchy PB&amp;J Fish</span>
+					<span class="inlineblockfish fishgroup_18">King Crab</span>
+					<span class="inlineblockfish fishgroup_22">Sea Horse</span>
+					<span class="inlineblockfish fishgroup_22">Rocking Sea Horse</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity5">5</td>
+				<td>
+					<span class="inlineblockfish fishgroup_0">Hot Air Balloon Fish</span>
+					<span class="inlineblockfish fishgroup_32">Grape PB&amp;J Fish</span>
+					<span class="inlineblockfish fishgroup_4">Sad Clown Fish</span>
+					<span class="inlineblockfish fishgroup_20">Harvest Moon Fish</span>
+					<span class="inlineblockfish fishgroup_22">Rocking Sea Horse</span>
+					<span class="inlineblockfish fishgroup_24">Kiddie Pool Shark</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity6">6</td>
+				<td>
+					<span class="inlineblockfish fishgroup_8">Rock Star Fish</span>
+					<span class="inlineblockfish fishgroup_16">Nurse Shark</span>
+					<span class="inlineblockfish fishgroup_22">Clydesdale Sea Horse</span>
+					<span class="inlineblockfish fishgroup_24">Swimming Pool Shark</span>
+					<span class="inlineblockfish fishgroup_30">Piano Tuna</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity7">7</td>
+				<td>
+					<span class="inlineblockfish fishgroup_24">Olympic Pool Shark</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity8">8</td>
+				<td>
+					<span class="inlineblockfish fishgroup_8">Shining Star Fish</span>
+					<span class="inlineblockfish fishgroup_22">Arabian Sea Horse</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity9">9</td>
+				<td>
+					<span class="inlineblockfish fishgroup_2">Siamese Cat Fish</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="rarity rarity10">10</td>
+				<td>
+					<span class="inlineblockfish fishgroup_2">Siamese Cat Fish</span>
+					<span class="inlineblockfish fishgroup_8">All Star Fish</span>
+					<span class="inlineblockfish fishgroup_10">Holey Mackerel</span>
+					<span class="inlineblockfish fishgroup_34">Devil Ray</span>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<en:p>Note that some species occur twice in this table -- for instance, Amore Eel can be caught with rarity 1 as well as 3, while Siamese Cat Fish has rarity values 9 and 10.</en:p>
+	<de:p>Beachte, dass einige Arten doppelt in der Tabelle vorkommen -- zum Beispiel kann der Amore Eel mit Seltenheit 1 und 3 gefangen werden, während der Siamese Cat Fish Seltenheit 9 und 10 besitzt.</de:p>
+
+	<en:p>Suppose the routine rolls a rarity value of 9, then you always catch a Siamese Cat Fish. If it rolls 8, you get a Shining Star Fish or an Arabian Sea Horse, each with 50% chance.</en:p>
+	<de:p>Angenommen die Routine würfelt Seltenheit 9, dann fängst du immer den Siamese Cat Fish. Wenn sie 8 würfelt, bekommst du einen Shining Star Fish oder ein Arabian Sea Horse, jeweils mit 50% Wahrscheinlichkeit.</de:p>
+
+	<en:h2>How do you compute the number of required buckets?</en:h2>
+	<de:h2>Wie wird die Anzahl an benötigten Eimern berechnet?</de:h2>
+
+	<en:p>Using math and probability theory.</en:p>
+	<de:p>Mittels Mathematik und Wahrscheinlichkeitstheorie.</de:p>
+
+	<en:p class="important">The value indicated in the statistics tables is the number of buckets you are supposed to fish in order to be 90% sure to have caught the fish you are hunting.</en:p>
+	<de:p class="important">Der angegebene Wert in der Statistik-Tabelle ist die Anzahl an Eimern, die du angeln musst, um die entsprechende Fischart mit 90% Sicherheit zu fangen.</de:p>
+
+	<en:p>This does not guarantee that you actually have it then, but this event should be rather unlikely (it happens to one person amongst ten). Of course, if you are lucky, then you can catch the species already much earlier -- this is especially true for rare fishes. If you are very unlucky, you may as well require much more fishing -- but with every new catch, this is going to be more and more unlikely.</en:p>
+	<de:p>Das garantiert dir nicht, dass du die Fischart dann auch tatsächlich erhälst, aber das sollte eher unwahrscheinlich sein (es passiert nur einer Person aus zehn). Natürlich kannst du die Art auch viel früher fangen, wenn du Glück hast -- das gilt umso mehr für seltene Fische. Wenn du sehr viel Pech hast, dann kannst du allerdings auch viel mehr Eimer benötigen -- mit jedem Fang wird dies jedoch immer unwahrscheinlicher.</de:p>
+
+	<en:p>The indicated number of buckets does not need to be caught in sequence. In fact it is enough to catch them at any time in any district. Also, it does not matter whether you catch a different new species in the meanwhile.</en:p>
+	<de:p>Die angegebene Anzahl an Eimern muss nicht in Folge gefangen werden. Es genügt, sie irgendwann in irgendeinem Bezirk zu angeln. Außerdem spielt es keine Role, ob du in der Zwischenzeit eine andere neue Art fängst.</de:p>
+
+	<en:p>Why 90%, you may ask? In fact, 90% is completely arbitrary. It turned out, though, to be a sensible threshold which gives reasonable numbers.</en:p>
+	<de:p>Warum 90%, magst du fragen? Tatsächlich sind die 90% total willkürlich. Es stellt sich jedoch heraus, dass 90% ein vernünftiger Schwellenwert ist, der sinnvolle Werte liefert.</de:p>
+
+	<en:h2>Where are my toons stored?</en:h2>
+	<de:h2>Wo sind meine Toons gespeichert?</de:h2>
+
+	<en:p class="important">This site uses the latest HTML5 features to store all your toons <em>locally</em> on your computer or mobile device.</en:p>
+	<de:p class="important">Diese Webseite benutzt die neuesten HTML5-Features um deine Toons <em>lokal</em> auf deinem Computer oder Mobilgerät zu speichern.</de:p>
+
+	<en:p>This has quite some advantages:</en:p>
+	<de:p>Dies hat einige Vorteile:</de:p>
+	<ul>
+		<en:li>Usability: No registration is required. Just get started by specifying a rod and a toon name (so that you recognize it later on -- you can also make up something here).</en:li>
+		<de:li>Benutzerfreundlichkeit: es wird keine Registrierung benötigt. Du kannst diese Seite sofort benutzen, indem du einfach die Angel und einen Toonnamen angibst (damit du den Toon wiedererkennst -- du kannst hier auch etwas erfinden).</de:li>
+		<en:li>Privacy: you have full control over your data.</en:li>
+		<de:li>Datenschutz: du hast volle Kontrolle über deine Daten.</de:li>
+		<en:li>Economy: no database is cluttered with unused or forgotten data.</en:li>
+		<de:li>Wirtschaftlichkeit: es wird keine Datenbank mit unbenutzten oder vergessenen Daten zugemüllt</de:li>
+		<en:li>Coolness: HTML5 is just awesome!</en:li>
+		<de:li>Coolness: HTML5 ist einfach nur klasse!</de:li>
+	</ul>
+
+	<en:p>Unfortunately, there is a downside (there always is).</en:p>
+	<de:p>Bedauerlicherweise gibt es auch einen Nachteil (es gibt immer einen).</de:p>
+
+	<en:p class="important">All data remains within the browser you are currently using. You cannot access it on other devices or browsers.</en:p>
+	<de:p class="important">Alle Daten existieren nur innerhalb des Browsers, den du gerade benutzt. Auf anderen Geräten oder in anderen Browsern kannst du nicht darauf zurückgreifen.</de:p>
+
+	<en:p>You can, however, transfer all your stored data to another device -- just click the ``<a href="/*/toons/export.html">Export toons</a>'' button on the <a href="/*/toons.html">toon management page</a> and follow the instructions.</en:p>
+	<en:p>That way you can also create a backup by storing the link that is generated there, into your bookmarks.</en:p>
+	<de:p>Du kannst deine gespeicherten Daten allerdings auf ein anderes Gerät übertragen, indem du den ``<a href="/*/toons/export.html">Toons exportieren</a>''-Button in der <a href="/*/toons.html">Toon-Verwaltung</a> anklickst und den Anweisungen folgst.</de:p>
+	<de:p>Auf diese Weise kannst du auch ein Backup erstellen, indem du den dort erstellten Link in deinen Lesezeichen abspeicherst.</de:p>
+</body>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<language code="de" name="Deutsch">
+	<!-- General -->
+	<entry key="Service provided by: ">Dienst zur Verfügung gestellt von: </entry>
+	<entry key="SigGen">SigGen</entry>
+	<entry key="Copyright © 2014 by Steve Muller. All rights reserved.">Copyright © 2014 by Steve Muller. Alle Rechte vorbehalten.</entry>
+	<entry key="All rights related to fish and playground icons belong to Disney.">Alle Rechte bezüglich Fisch- und Spielplatz-Icons gehören Disney.</entry>
+	<entry key="There is no translation of this document in your language. The English version is displayed instead.">Dieses Dokument wurde noch nicht auf Deutsch übersetzt. Stattdessen wird die englische Version angezeigt.</entry>
+	<entry key="The probabilities of the Fish Advisor now match those of the new Toontown Rewritten update!">Die Wahrscheinlichkeiten des Angelratgebers entsprechenden nun jenen vom letzten Toontown Rewritten Update!</entry>
+	<!-- Toontown related -->
+	<entry key="Twig">Zweig</entry>
+	<entry key="Bamboo">Bambus</entry>
+	<entry key="Hardwood">Hartholz</entry>
+	<entry key="Steel">Stahl</entry>
+	<entry key="Gold">Gold</entry>
+	<entry key="Estate">Grundstück</entry>
+	<!-- Page titles -->
+	<entry key="Fish Advisor">Angelratgeber</entry>
+	<entry key="Welcome">Willkommen</entry>
+	<entry key="List of fish species">Liste aller Fischarten</entry>
+	<entry key="List of fishing ponds">Liste aller Teiche</entry>
+	<entry key="Species advisor">Fischart-Ratgeber</entry>
+	<entry key="Advise me: where?">Berate mich: wo?</entry>
+	<entry key="Pond advisor">Teich-Ratgeber</entry>
+	<entry key="Advise me: what?">Berate mich: was?</entry>
+	<entry key="Toons">Toons</entry>
+	<entry key="Export toons">Toons exportieren</entry>
+	<entry key="Import toons">Toons importieren</entry>
+	<entry key="My toons">Meine Toons</entry>
+	<entry key="Insight">Einblick</entry>
+	<!-- Page: language -->
+	<entry key="Translations">Übersetzungen</entry>
+	<entry key="The Fish Advisor is available in these languages:">Der Angelratgeber ist in folgenden Sprachen verfügbar:</entry>
+	<entry key="Do you want to localize this site into another language?">Möchtest du diese Seite in eine andere Sprache übersetzen?</entry>
+	<entry key="Just head over to the $ directory, grab a copy of any pair of language files (.xml and .js) and translate them. When you're done, send them to $ and I'll add them as soon as I can.">Begib dich in den $-Ordner, besorge dir eine Kopie eines Sprachdateien-Paares (.xml und .js) und mach dich ans Übersetzen. Wenn du fertig bist, sende beide Dateien an $ und ich werde sie so schnell wie möglich hinzufügen.</entry>
+	<entry key="The first file is in the $ format. Language entries are of the form:">Die erste Datei ist im $-Format. Spracheinträge sind von der Form:</entry>
+	<entry key="The second file is in the $ format. Language entries are of the form:">Die zweite Datei ist im $-Format. Spracheinträge sind von der Form:</entry>
+	<entry key="Original (English) text">Originaltext (Englisch)</entry>
+	<entry key="Translated text">Übersetzter Text</entry>
+	<!-- Page: toons -->
+	<entry key="Pick a toon">Wähle einen Toon</entry>
+	<entry key="Clicking on a toon's panel makes the Fish Advisor adapt the various statistics on this site for this specific toon.">Wenn du auf auf einen Toon klickst, dann werden alle Statistiken dieser Seite für diesen Toon angepasst.</entry>
+	<entry key="You can edit the selected toon below.">Du kannst den ausgewählten Toon unten bearbeiten.</entry>
+	<entry key="Export my toons to another device">Meine Toons auf ein anderes Gerät übertragen</entry>
+	<!-- Page: toons_export -->
+	<entry key="Check all the toons you want to export.">Wähle alle Toons aus, die du exportieren möchtest.</entry>
+	<entry key="Copy the export link below and open it on your other device.">Kopiere den Export-Link und öffne ihn auf deinem anderen Gerät.</entry>
+	<entry key="Or scan the QR code with your mobile device.">Oder scanne den QR-Code mit deinem Mobilgerät.</entry>
+	<!-- Pages: fish_advisor | pond_advisor -->
+	<entry key="What species should I catch before buying the next rod?">Welche Art sollte ich fangen, bevor ich die nächste Angel kaufe?</entry>
+	<entry key="Where should I fish if catching a new species shall be as likely as possible?">Wo sollte ich angeln, wenn das Fangen einer neuen Art so wahrscheinlich wie möglich sein soll?</entry>
+	<entry key="Giving advice to:">Toon beraten:</entry>
+	<entry key="Congratulations on catching all fish species!">Herzlichen Glückwunsch! Du hast alle Arten gefangen!</entry>
+	<entry key="needs 1 bucket">benötigt 1 Eimer</entry>
+	<entry key="needs %d buckets">benötigt %d Eimer</entry>
+	<!-- Page: fishes -->
+	<entry key="Choose your toon">Wähle deinen Toon</entry>
+	<entry key="Fish species">Fischarten</entry>
+	<!-- Page: fishes_single -->
+	<entry key="This is a $ species, which can weigh up to $ lb. You'll need at least the $ rod.">Dies ist eine $ Art, die bis zu $ Pfund wiegen kann. Du brauchst mindestens die $-Angel dafür.</entry>
+	<entry key="common">häufige</entry>
+	<entry key="rare">seltene</entry>
+	<entry key="very rare">sehr seltene</entry>
+	<entry key="This species cannot be caught with this rod.">Diese Art kann nicht mit dieser Angel gefangen werden.</entry>
+	<entry key="most common (%s) with ">am häufigsten (%s) mit der </entry>
+	<entry key=" rod">-Angel</entry>
+	<!-- Page: ponds -->
+	<entry key="Fishing ponds">Angelteiche</entry>
+	<!-- Page: ponds_single -->
+	<entry key="at your ">auf deinem </entry>
+	<entry key="estate">Grundstück</entry>
+	<entry key="in ">in </entry>
+	<entry key="on the ">auf dem </entry>
+	<entry key="playground">Spielplatz</entry>
+	<entry key="heading to ">in Richtung von </entry>
+	<entry key="Only showing uncaught species of:">Zeige nur ungefangene Arten an von:</entry>
+	<entry key="No further species can be caught at this pond.">An diesem Teich kannst du keine weitere Art fangen.</entry>
+	<entry key="most common (%s) in ">am häufigsten (%s) in </entry>
+</language>

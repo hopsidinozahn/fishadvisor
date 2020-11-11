@@ -1,0 +1,57 @@
+﻿/*
+ * Copyright © 2014 by Steve Muller. All rights reserved.
+ * You may not copy, reproduce, alter, create derivates of, redistribute or sell this work without
+ * explicit permission of the author. This copyright notice must not be removed.
+ *
+ */
+.fishtable
+{
+	width: auto;
+	margin: 20px auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.fishtable thead
+{
+	border-bottom: solid 1px #444;
+}
+.fishtable th,
+.fishtable td
+{
+	text-align: left;
+	padding: 2px 20px;
+	vertical-align: top;
+}
+.fishtable .fish
+{
+	display: block;
+	padding: 4px 0 4px 25px;
+	background-size: 20px 20px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	white-space: pre;
+	overflow: hidden;
+	font-size: 80%;
+}
+.fishtable tbody tr:nth-child(2n+1)
+{
+	background-color: #f4f4f4;
+}
+.fishtable .more::after
+{
+	content: "0";
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 5px;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	font-size: 10px;
+	background: #f80;
+	text-align: center;
+	color: #fff;
+}
+.fishtable .more2::after { content: "2x"; }
+.fishtable .more3::after { content: "3x"; }
+.fishtable .more4::after { content: "4x"; }
+.fishtable .more5::after { content: "5x"; }

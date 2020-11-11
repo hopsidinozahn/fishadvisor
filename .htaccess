@@ -1,0 +1,27 @@
+RewriteEngine on
+RewriteBase /Toontown/FishAdvisor/
+
+# Main document is ponds.html
+RewriteRule ^/?$ ponds.html [R=303,L]
+RewriteRule ^ponds/?$ ponds.html [R=303,L]
+RewriteRule ^fishes/?$ fishes.html [R=303,L]
+
+RewriteRule ^toons/export\.png index-no-i18n.php [L] 
+
+# Every *.html|json URI which specifies a language code is processed by the main API
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-z]{2})/.+\.(html|json) index-$1.php [L] 
+
+# Every other *.html|json URI (not specifying a language code) is processed by
+# a language detection script which, itself, redirects it (via HTTP) to
+# an URI containing such a code.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule \.(html|json)$ determine-language.php
+
+Options -Indexes
+ErrorDocument 400 /Toontown/FishAdvisor/index-400.php
+ErrorDocument 401 /Toontown/FishAdvisor/index-401.php
+ErrorDocument 403 /Toontown/FishAdvisor/index-403.php
+ErrorDocument 404 /Toontown/FishAdvisor/index-404.php
